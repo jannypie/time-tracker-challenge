@@ -1,0 +1,117 @@
+@import 'foundation-icons'
+
+html
+  box-sizing: border-box
+
+*, *:after, *:before
+  box-sizing: inherit
+
+html,body
+  background: #333
+  margin: 0
+  padding: 0
+
+
+form,fieldset
+  border: 0
+  margin: 0
+  padding: 0
+
+label
+  display: block
+
+.bold
+  font-weight: bold
+  color: #222
+
+#main
+  background: white
+  margin: 2em
+  text-align: center
+  font-family: sans-serif
+  font-weight: 300
+  font-size: 14px
+  padding: 3em 0
+  overflow: auto
+
+h1,h2,h3,h4,h5,h6
+  margin: 0.25em auto
+  color: #333
+  font-weight: bold
+
+#entries
+  padding: 0 10%
+
+.card
+  display: inline-block
+  float: left
+  width: 23%
+  margin: 1em 1%
+  border-radius: 5px
+  border: 1px solid silver
+  box-shadow: 1px 1px 2px silver
+  background: #f5f2f0
+
+.time-entry_top
+  background: silver
+  padding: 1em 0
+  p
+    margin: 0
+    padding: 0
+    line-height: 1.5em
+
+.time-entry_middle
+  font-size: 74px
+  overflow: auto
+  padding: .2em 0
+  span
+    font-size: 0.25em
+    color: silver
+
+.time-entry_bottom
+  background: silver
+  padding: 1em 0
+
+.time-entry_new--icon
+  display: block
+  margin: 0.75em  auto 0.5em
+  padding: 0.25em
+  width: 1.5em
+  height: 1.5em
+  border-radius: 100%
+  box-shadow: 1px 1px 2px silver
+  background: white
+  &:hover
+    background: lavender
+
+select, input[type="submit"]
+  line-height: 1.5em
+  background: white
+  border: 1px solid white
+  width: 75%
+  border-radius: 0
+
+select
+  margin-bottom: 0.5em
+
+button
+  font-size: 1em
+  color: orangered
+  display: block
+  margin: 0 auto
+  padding: 0.25em
+  width: 1.5em
+  height: 1.5em
+  border-radius: 100%
+  border: 0
+  box-shadow: 1px 1px 2px silver
+  background: white
+  &:hover
+    background: lighten(orangered, 40%)
+.start
+  color: yellowgreen
+  &:hover
+    background: lighten(yellowgreen, 40%)
+
+.fi-play
+  margin-left: 0.2em

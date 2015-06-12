@@ -1,0 +1,14 @@
+json.id company.id
+json.name company.name
+json.address1 company.address1
+json.address2 company.address2
+json.address3 company.address3
+json.city company.city
+json.state company.state
+json.zip company.state
+json.phone1 company.phone1
+json.phone2 company.phone2
+json.fax1 company.fax1
+json.fax2 company.fax2
+json.email company.email
+json.website company.website

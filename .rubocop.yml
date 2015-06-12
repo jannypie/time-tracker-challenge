@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    - Guardfile
+    - vendor/**/*
+  RunRailsCops: true
+
+Documentation:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Enabled: false

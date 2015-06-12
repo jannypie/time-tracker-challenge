@@ -1,0 +1,30 @@
+<form id="new-time_entry" name="time_entry">
+  <input type="hidden" id="started_at" name="time_entry[started_at]">
+  <input type="hidden" id="duration" name="time_entry[duration]">
+  <div class="time-entry_top">
+    <fieldset>
+      <select name="" id="select-company" required>
+        <option value="" id="default-company">Select Company</option>
+        <% for(var i=0; i< TimeTracker.Companies.length; i++) {%>
+           <option value="<%=  TimeTracker.Companies[i].attributes.id %>"><%=  TimeTracker.Companies[i].attributes.name %></option>
+        <% } %>
+      </select>
+    </fieldset>
+    <fieldset>
+      <select name="time_entry[project_id]" id="select-project" disabled >
+        <option value="">Select Project</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <select name="time_entry[task_id]" id="select-task" disabled required>
+        <option value="">Select Task</option>
+      </select>
+    </fieldset>
+  </div>
+  <div class="time-entry_middle">
+    <button id="start-timing" class="button start"><i class="fi-play"></i></button>
+  </div>
+  <div class="time-entry_bottom actions">
+    <input type="submit" id="submit-entry" value="Create Time Entry" disabled />
+  </div>
+</form>

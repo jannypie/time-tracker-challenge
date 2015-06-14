@@ -1,3 +1,6 @@
+![refactored approach](timetracker-screenshot.jpg)
+
+
 TimeTracker API
 ===============
 
